@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrakhan - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Gradient -->
+    <div class="bg-gradient"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <!-- Desktop Navigation -->
+            <div class="nav-desktop">
+
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">دەربارە</a></li>
+                    <li><a href="#skills" class="nav-link">کارەکان</a></li>
+                    <li><a href="#projects" class="nav-link">پرۆژەکان</a></li>
+                    <li><a href="#experience" class="nav-link">بڕوانامەکان</a></li>
+                    <li><a href="#contact" class="nav-link">پەیوەندی کردن</a></li>
+                </ul>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile">
+                <div class="nav-mobile-header">
+                    <div class="nav-logo">Portfolio</div>
+                    <button class="nav-toggle" id="navToggle">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
+                <div class="nav-mobile-menu" id="navMobileMenu">
+                    <ul class="nav-mobile-list">
+                        <li><a href="#about" class="nav-mobile-link">About</a></li>
+                        <li><a href="#skills" class="nav-mobile-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-mobile-link">Projects</a></li>
+                        <li><a href="#experience" class="nav-mobile-link">Experience</a></li>
+                        <li><a href="#contact" class="nav-mobile-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Left Content -->
+                <div class="hero-text">
+                    <div class="hero-intro">
+                        <p class="hero-greeting">سڵاو،من</p>
+                        <h class="hero-name">چرا </h>
+                        <h2 class="hero-title">گەشەپێدەری فول ستاک</h2>
+                    </div>
+                    
+                    <p class="hero-description">
+                       من بە تەکنەلۆژیای مۆدێرن بەرنامەی وێبی جوان و وەڵامدەرەوە دروست دەکەم. 
+خولیای کۆدی پاک و ئەزموونی بەکارهێنەر و هێنانەدی بیرۆکەکانە، هەرووەها دروست کردنی ڕاپۆرت و سیمنار و توێژینەوە و پۆستەر و سیڤی دەتوانن کارەکانم ببین و پەیوەندیم پێوە بکەن.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="viewWorkBtn">بینی کارەکانم</button>
+                       <button  class="btn btn-secondary"  id="getInTouchBtn" >پەیوەندی بکە</button>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15,3 21,3 21,9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Content - Profile Image -->
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <div class="profile-border">
+                            <div class="profile-bg">
+                                <img src="photo_5354869619137062198_y.jpg" class="profile-image">
+                            </div>
+                        </div>
+                        <div class="profile-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">دەربارەی من</h2>
+                <p class="section-description">
+                    ئەم بەشە زانیاری ورد لەبارەی پێشینە و ئەزموون و خولیای گەشەپێدانم لەخۆدەگرێت. ناوم چراخان محێدین لەدایکبوونی ساڵی {١٠/٣/٢٠٠} ، بەشی زانیاری تەکنەلۆجیا بڕوانامەی دیبلۆم،  زۆرم خۆشدەوێت  داهێنەرانە ویبسایت دروست بکەم، هەرووەها دروستکردنی ڕاپۆرت و سیمنار و توێژینەوە و پۆستەر و سیڤی و کارکردن لەگەڵ تەکنەلۆژیا پێشکەوتووەکان بۆ بنیاتنانی ئەزموونی سەرسوڕهێنەر.
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">کارەکانم</h2>
+                <p class="section-description">
+لێرەدا کارامەیی تەکنیکی و ئامراز و تەکنەلۆژیاکانم پیشان دەدەم کە کاریان لەگەڵ دەکەم.                </p>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML</div>
+                    <div class="skill-card">CSS</div>
+                    <div class="skill-card">javascript</div>
+                    <div class="skill-card">ڕاپۆرت</div>
+                    <div class="skill-card">سیمنار</div>
+                    <div class="skill-card">توێژینەوە</div>
+                    <div class="skill-card">پۆستەر</div>
+                    <div class="skill-card">سیڤی</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-content projects-content">
+                <h2 class="section-title">پڕۆژەکان</h2>
+                <p class="section-description">
+کۆمەڵێک لە باشترین کار و پڕۆژەکانم کە دروستم کردوون.                </p>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzU1NjgyMDA1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="Analytics Dashboard">
+                            <div class="project-overlay"></div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">پلاتفۆرمی بازرگانی ئەلیکترۆنی</h3>
+                            <p class="project-description">
+چارەسەرێکی بازرگانی ئەلترۆنی تەواو ستاک لەگەڵ پێشکەوتوو، یەکگرتنی پارەدان، ویکڵ کۆکردنەوەی.                            <div class="project-tech">
+                                <span class="tech-tag">html</span>
+                                <span class="tech-tag">css</span>
+                                <span class="tech-tag">bootstrap</span>
+                                <span class="tech-tag">javascript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                       <img src="photo_5354857520214179915_y.jpg" alt="E-Commerce Platform">
+                            <div class="project-overlay"></div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">سیمنار</h3>
+                            <p class="project-description">
+دروستکردنی سیمنار بەشێوەیەکی پێشکەوتوو ئەکادیمی، دیزانکردنی کوالێتی بەرز،هەموو جۆرە دیزانینێک دروست دەکەن.                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">design</span>
+                                <span class="tech-tag">siminar</span>
+                                <a href="https://www.instagram.com/share/reel/_8JBbbflD" class="tech-tag"> see</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            
+                            
+ 
+                            
+                            <img src="https://images.unsplash.com/photo-1694599048261-a1de00f0117e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc1NTYyNTAwMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral" alt="E-Commerce Platform">
+                            <div class="project-overlay"></div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">توێژینەوە</h3>
+                            <p class="project-description">
+هەموو جۆرە توێژینەوەیەک و راپۆرت و پۆستەر و سیڤی بە خوازتی خۆتان بەردەستە.                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Raport</span>
+                                <span class="tech-tag">Research</span>
+                                <span class="tech-tag">Cv</span>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">بڕوانامە</h2>
+                <p class="section-description">
+گەشتی پیشەیی و ئەزموونی کارکردنم لەم بوارەدا.                </p>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <h3 class="experience-role">Senior Full Stack Developer</h3>
+                        <p class="experience-company">Tech Company</p>
+                        <p class="experience-period">2023 - Present</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-role">Frontend Developer</h3>
+                        <p class="experience-company">Startup Inc.</p>
+                        <p class="experience-period">2021 - 2023</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3 class="experience-role">design</h3>
+                        <p class="experience-company">pwerpont</p>
+                        <p class="experience-period">2020 - 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+ 
+                  
+                  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!--contact-->
+  <footer>
+    <section class="contact-section">
+          <h3 class="project-title"> پەیوەندی بکە</h3>
+    <div class="contact-cards">
+      <a href="https://www.instagram.com/chraa_it?igsh=azZobzd5dDBnMnZw" class="card" target="_blank">
+        <span>InstaGram</span>
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/share/1DzrHm3XtW/" class="card" target="_blank">
+        <span>Facebook</span>
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://t.me/chraa_it" class="card" target="_blank">
+        <span>TeleGram</span>
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+      <a href="https://www.tiktok.com/@chra.designs?_t=ZS-8zmiERpJCnx&_r=1" class="card" target="_blank">
+        <span>TikTok</span>
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+    </div>
+  </section>
+    <p>&copy; 2025 | Chra</p>
+  </footer>
+
+</body>
+</div>
+ </div>
+ </div>
+ </div>
+ </section>
+ <script src="script.js"></script>
+</body>
+</html>
